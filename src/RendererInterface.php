@@ -10,6 +10,6 @@ interface RendererInterface
      * @param array|null $data
      * @return string
      */
-    public function render( string $templatePath, array $data = null): string;
+    public function render( string $templatePath, array $data = array()): string;
 
 }
