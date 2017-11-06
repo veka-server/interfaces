@@ -1,0 +1,18 @@
+{
+    "name": "veka-server/interfaces",
+    "description": "Collection d'interface pour mon framework",
+    "license": "MIT",
+    "keywords": ["interfaces"],
+    "authors": [
+        {
+            "name": "Vanhaezebrouck Nicolas",
+            "email": "contact@veka-server.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "VekaServer\\Interfaces\\" : "src/"
+        }
+    },
+    "require": {}
+}
