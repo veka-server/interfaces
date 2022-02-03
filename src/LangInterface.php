@@ -6,7 +6,7 @@ interface LangInterface
 {
     public function get($key);
 
-    public function has($key): bool
+    public function has($key): bool;
 
     public function set($key, $lang, $traduction);
 
@@ -14,11 +14,11 @@ interface LangInterface
     /**
      * @return string
      */
-    public function getLang(): string
+    public function getLang(): string;
 
     /**
      * @param string $lang
      */
-    public function setLang(string $lang): void
+    public function setLang(string $lang): void;
 
 }
