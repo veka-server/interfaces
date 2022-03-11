@@ -7,8 +7,8 @@ interface PluginInterface
 
     public static function getPathView():array;
 
-    public static function getPathJS():string;
+    public static function getPathJS():array;
 
-    public static function getPathCSS():string;
+    public static function getPathCSS():array;
 
 }
